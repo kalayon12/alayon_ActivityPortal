@@ -7,8 +7,8 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import Placeholder from 'react-bootstrap/Placeholder';
-import flameNormal from '../assets/flame-princess-high.png';
-import flameHigh from '../assets/Flame_princess.png';
+import flameHigh from '../assets/flame-princess-high.png';
+import flameNormal from '../assets/Flame_princess.png';
 
 
 const IMAGES = {
