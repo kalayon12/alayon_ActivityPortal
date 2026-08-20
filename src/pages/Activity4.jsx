@@ -10,14 +10,11 @@ import Placeholder from 'react-bootstrap/Placeholder';
 import flameNormal from '../assets/flame-princess-high.png';
 import flameHigh from '../assets/Flame_princess.png';
 
-// 👉 Palitan ang mga path na ito ng sarili mong laman ng src/assets folder
-// import flameNormal from '../assets/flame-normal.jpg';
-// import flameHigh from '../assets/flame-high.jpg';
 
 const IMAGES = {
   default: 'https://c4.wallpaperflare.com/wallpaper/522/68/956/adventure-time-fantasy-girl-red-background-flame-princess-wallpaper-preview.jpg',
-  normal: '/src/assets/Flame_princess.png', // palitan gamit ang imported variable pag ready na
-  high: '/src/assets/flame-princess-high.png',     // palitan gamit ang imported variable pag ready na
+  normal: '/src/assets/Flame_princess.png', 
+  high: '/src/assets/flame-princess-high.png',     
 };
 
 function Activity4() {
@@ -104,7 +101,6 @@ function Activity4() {
           />
         </Col>
  
-        {/* RIGHT: Form */}
         <Col md={6} className="bill-card-right">
           <h3>Electricity Bill Calculator</h3>
           <p className="subtitle">Compute a bill from kWh consumption across tiered rates.</p>

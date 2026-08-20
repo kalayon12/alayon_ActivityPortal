@@ -58,7 +58,6 @@ function Activity5() {
       return;
     }
 
-    // timeIn comes from <input type="time"> as "HH:MM" (24-hour), e.g. "06:30"
     const [hoursStr, minutesStr] = timeIn.split(':');
     const hours = Number(hoursStr);
     const minutes = Number(minutesStr);
@@ -113,7 +112,6 @@ function Activity5() {
           />
         </Col>
 
-        {/* BOTTOM: Form */}
         <Col md={12} className="attend-card-bottom">
           <h3>Employee Attendance Checker</h3>
           <p className="subtitle">Classify a decimal time-in value as On Time, Late, or Very Late.</p>

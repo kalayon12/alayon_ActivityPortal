@@ -54,7 +54,6 @@ function Activity1() {
               />
             </Col>
 
-            {/* RIGHT: Login form */}
             <Col md={6} className="login-card-right">
               <Card.Body className="p-4 p-md-5">
                 {!isLoggedIn ? (

@@ -87,7 +87,6 @@ function Activity3() {
           />
         </div>
 
-        {/* RIGHT: Form */}
         <div className="pass-card-right">
           <h3>Password Strength Checker</h3>
           <p className="subtitle">Classify a password by length as Weak, Medium, or Strong.</p>
