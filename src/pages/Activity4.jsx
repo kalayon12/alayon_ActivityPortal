@@ -13,8 +13,8 @@ import flameHigh from '../assets/Flame_princess.png';
 
 const IMAGES = {
   default: 'https://c4.wallpaperflare.com/wallpaper/522/68/956/adventure-time-fantasy-girl-red-background-flame-princess-wallpaper-preview.jpg',
-  normal: '/src/assets/Flame_princess.png', 
-  high: '/src/assets/flame-princess-high.png',     
+  normal: flameNormal,
+  high: flameHigh,
 };
 
 function Activity4() {
