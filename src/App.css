@@ -120,10 +120,16 @@ body {
 
 .login-card {
   max-width: 850px;
+  min-height: 500px;
   margin: 0 auto;
   border-radius: 24px !important;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.login-card > .row {
+  min-height: 500px;
+  align-items: stretch;
 }
 
 .login-card-left {
@@ -139,6 +145,18 @@ body {
 .login-card-right {
   display: flex;
   align-items: center;
+}
+
+.login-card-body {
+  width: 100%;
+}
+
+.login-alert-slot {
+  min-height: 0;
+}
+
+.login-sample-creds {
+  font-size: 0.8rem;
 }
 
 .login-btn-dark {
@@ -159,6 +177,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .login-card {
+    min-height: auto;
+  }
+  .login-card > .row {
+    min-height: auto;
+  }
   .login-card-left {
     padding: 2.5rem 1rem;
     min-height: 220px;

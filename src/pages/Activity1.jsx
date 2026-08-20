@@ -55,7 +55,7 @@ function Activity1() {
             </Col>
 
             <Col md={6} className="login-card-right">
-              <Card.Body className="p-4 p-md-5">
+              <Card.Body className="p-4 p-md-5 login-card-body">
                 {!isLoggedIn ? (
                   <>
                     <Card.Title as="h3" className="fw-bold">
@@ -84,18 +84,24 @@ function Activity1() {
                         />
                       </FloatingLabel>
 
-                      {message && (
-                        <Alert
-                          variant={message === 'Login successful!' ? 'success' : 'danger'}
-                          className="py-2"
-                        >
-                          {message}
-                        </Alert>
-                      )}
+                      <div className="login-alert-slot">
+                        {message && (
+                          <Alert
+                            variant={message === 'Login successful!' ? 'success' : 'danger'}
+                            className="py-2 mb-3"
+                          >
+                            {message}
+                          </Alert>
+                        )}
+                      </div>
 
                       <Button type="submit" className="login-btn-dark w-100">
                         Log In
                       </Button>
+
+                      <p className="login-sample-creds text-center text-muted mt-3 mb-0">
+                        Sample credentials — Username: <strong>admin</strong>, Password: <strong>12345</strong>
+                      </p>
                     </Form>
                   </>
                 ) : (
